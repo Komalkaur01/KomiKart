@@ -1,39 +1,56 @@
-# 👶 KomiKart - Pastel Baby Product Store 💖
+# 🛍 KomiKart - Baby Product E-Commerce Store
 
-Welcome to **KomiKart**, an elegant pastel-themed E-commerce store for adorable baby clothes and accessories. From bunny ears to blush booties, everything is soft, stylish, and made with love 💕.
+KomiKart is a modern, playful, and responsive e-commerce platform built with React, focused on delivering a seamless shopping experience for baby and parenting products.
 
-## ✨ Features
+![KomiKart Screenshot](./public/banner1.jpg)
 
-- 🛍️ Browse products in **Grid** or **List** view
-- 💖 Beautiful pink & white **pastel UI**
-- 🔍 Smart **product search** (coming soon)
-- 🛒 **Cart management** with smooth UX
-- 💳 **Checkout page** designed for simplicity
-- 🌐 Built with **React**, **React Router**, and **Tailwind CSS**
+## 🚀 Features
 
-## 📦 Coming Soon
+- 🏠 Beautiful home page with banners, featured products, and category carousel
+- 🛒 Product listing and detail pages
+- 📂 Shop by category
+- 🔐 Login / Signup authentication (dummy/local state)
+- 🛍 Cart functionality with quantity and price updates
+- 💳 Checkout page
+- 🌗 Light & soft theme with baby-friendly design
 
-> **API integration for dynamic products** will be completed next week! This will allow seamless backend connectivity and real-time product updates.
+## 🧱 Tech Stack
 
----
+- *Frontend:* React, React Router
+- *Styling:* Tailwind CSS
+- *Backend (Mock API):* [dummyjson.com](https://dummyjson.com)
+- *State Management:* Context API (User & Cart)
+- *Hosting:* GitHub Pages / Vercel (optional)
 
-## 🛠️ Tech Stack
+## 📦 Installation
 
-- **Frontend:** React.js + React Router DOM
-- **Styling:** Tailwind CSS
-- **State Management:** React Context API
-- **Version Control:** Git & GitHub
+```bash
+git clone https://github.com/yourusername/KomiKart.git
+cd KomiKart
+npm install
+npm run dev
+```
+Make sure you have Node.js and npm installed.
 
----
+🖼 Folder Structure
+bash
+Copy
+Edit
+src/
+├── assets/               # Images and icons
+├── components/           # Reusable UI components
+├── context/              # UserContext, CartContext
+├── pages/                # All route pages (Home, Product, Category, Login, etc.)
+├── App.jsx
+└── main.jsx
+📸 Screenshots
+Home Page	Product Details	Cart
 
-## 🚀 Getting Started
+💡 To-Do Features
+🔐 Firebase/Backend authentication
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Komalkaur01/KomiKart.git
-2. Navigate into the project:
-    cd KomiKart
-3. Install dependencies:
-    npm install
-4. Start the development server:
-    npm run dev
+✅ Order history and profile page
+
+🔍 Search and filter improvements
+
+✨ Animations and micro-interactions
