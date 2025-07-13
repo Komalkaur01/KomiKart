@@ -1,13 +1,32 @@
 @import "tailwindcss";
+
 body {
-  @apply bg-secondary text-text;
+  background-color: #f3f4f6; 
+  
 }
-
 h1, h2, h3 {
-  @apply text-primary font-bold;
+  color: #ec4899; 
+  font-weight: bold;
 }
-
 button {
-  @apply bg-primary text-white px-4 py-2 rounded hover:bg-pink-600 transition;
+  background-color: #ec4899; 
+  color: #fff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s;
+}
+button:hover {
+  background-color: #db2777; 
 }
 
+@keyframes slide {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+.animate-slide {
+  display: flex;
+  animation: slide 30s linear infinite;
+}
