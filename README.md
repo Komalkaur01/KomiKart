@@ -44,11 +44,7 @@ src/
 └── main.jsx
 ```
 
-## 📸 Screenshots
 
-| Home Page | Product Details | Cart |
-|----------|------------------|------|
-| ![](./public/banner2.jpg) | ![](./public/product.jpg) | ![](./public/cart.jpg) |
 
 ## 💡 To-Do Features
 
