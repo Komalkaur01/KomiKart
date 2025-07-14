@@ -1,39 +1,54 @@
-# 👶 KomiKart - Pastel Baby Product Store 💖
+# 🛍️ KomiKart - Discover quality products curated with care — shop smart, live better.
 
-Welcome to **KomiKart**, an elegant pastel-themed E-commerce store for adorable baby clothes and accessories. From bunny ears to blush booties, everything is soft, stylish, and made with love 💕.
+KomiKart is a modern, playful, and responsive e-commerce platform built with React, focused on delivering a seamless shopping experience.
 
-## ✨ Features
+![KomiKart Screenshot](./public/banner1.jpg)
 
-- 🛍️ Browse products in **Grid** or **List** view
-- 💖 Beautiful pink & white **pastel UI**
-- 🔍 Smart **product search** (coming soon)
-- 🛒 **Cart management** with smooth UX
-- 💳 **Checkout page** designed for simplicity
-- 🌐 Built with **React**, **React Router**, and **Tailwind CSS**
+## 🚀 Features
 
-## 📦 Coming Soon
+- 🏠 Beautiful home page with banners, featured products, and category carousel
+- 🛒 Product listing and detail pages
+- 📂 Shop by category
+- 🔐 Login / Signup authentication (dummy/local state)
+- 🛍️ Cart functionality with quantity and price updates
+- 💳 Checkout page
 
-> **API integration for dynamic products** will be completed next week! This will allow seamless backend connectivity and real-time product updates.
+## 🧱 Tech Stack
 
----
-
-## 🛠️ Tech Stack
-
-- **Frontend:** React.js + React Router DOM
+- **Frontend:** React, React Router
 - **Styling:** Tailwind CSS
-- **State Management:** React Context API
-- **Version Control:** Git & GitHub
+- **Backend (Mock API):** [dummyjson.com](https://dummyjson.com)
+- **State Management:** Context API (User & Cart)
+- **Hosting:** GitHub Pages / Vercel (optional)
 
----
+## 📦 Installation
 
-## 🚀 Getting Started
+```bash
+git clone https://github.com/yourusername/KomiKart.git
+cd KomiKart
+npm install
+npm run dev
+```
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Komalkaur01/KomiKart.git
-2. Navigate into the project:
-    cd KomiKart
-3. Install dependencies:
-    npm install
-4. Start the development server:
-    npm run dev
+Make sure you have **Node.js** and **npm** installed.
+
+## 🖼️ Folder Structure
+
+```
+src/
+├── assets/               # Images and icons
+├── components/           # Reusable UI components
+├── context/              # UserContext, CartContext
+├── pages/                # All route pages (Home, Product, Category, Login, etc.)
+├── App.jsx
+└── main.jsx
+```
+
+
+
+## 💡 To-Do Features
+
+- 🔐 Firebase/Backend authentication
+- ✅ Order history and profile page
+- 🔍 Search and filter improvements
+- ✨ Animations and micro-interactions
